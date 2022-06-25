@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.consuline">
+
+<!--    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />-->
+<!--    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />-->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Consuline"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.example.consuline.admin_edit_item"
+            android:parentActivityName="com.example.consuline.admin_Listed_items"
+            android:label="Edit Item"
+            />
+        <activity
+            android:name="com.example.consuline.admin_Listed_items"
+            android:label="Listed Items"
+            android:parentActivityName="com.example.consuline.admin_home" />
+        <activity
+            android:name="com.example.consuline.Admin_orders"
+            android:label="All Orders"
+            android:parentActivityName="com.example.consuline.admin_home" />
+        <activity
+            android:name="com.example.consuline.admin_home"
+            android:label="Admin" />
+        <activity
+            android:name="com.example.consuline.edit_profile"
+            android:label="Edit Profile"
+            android:parentActivityName="com.example.consuline.cart_activity" />
+        <activity
+            android:name="com.example.consuline.my_orders"
+            android:label="My Orders"
+            android:parentActivityName="com.example.consuline.Profile_activity" />
+        <activity android:name="com.example.consuline.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.consuline.Profile_activity"
+            android:label="My Profile"
+            android:parentActivityName="com.example.consuline.MainActivity" />
+        <activity
+            android:name="com.example.consuline.cart_activity"
+            android:label="My Cart"
+            android:parentActivityName="com.example.consuline.MainActivity" />
+        <activity android:name="com.example.consuline.MainActivity" />
+
+    </application>
+
+</manifest>

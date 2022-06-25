@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4286f5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="White">#FFFFFF</color>
+    <color name="WHite">#FFFFFF</color>
+    <color name="greybg">#E3E3E3E3</color>
+    <color name="newgreen">#28d1ab</color>
+    <color name="font">#272727</color>
+    <color name="fontlight">#8C8C8C</color>
+    <color name="redalert">#F44336</color>
+    <color name="Pedding">#FFC107</color>
+    <color name="grey">#484848</color>
+<!--    <color name="Grey">Grey</color>-->
+</resources>

@@ -1,2 +1,2 @@
 # Consuline-SE
-Aplikasi Consuline Software Engineering Android Studio Java MySQL PHP
+Aplikasi Consuline Software Engineering menggunakan andorid studio basis java dengan menggunakan database MySq
